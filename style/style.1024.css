@@ -40,18 +40,16 @@
         font-size: 18px;
        
     }
-    .card{
-        padding: 2px 2px;
-        margin:  1px 1px;
-    }
     .card-group, .clients{
         display: flex-wrap;
         flex-direction: row;
         flex-grow: 1;
     }
     .clients img {
-        height: fit-content;
-       
+        max-width:  auto;
+        max-height: auto;
+        border: none;
+        background-color: #d3d1d698;
         
     }
     .pands {
