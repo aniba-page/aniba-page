@@ -28,7 +28,7 @@ li a{
     
 }
 .navbar-text:hover{
-    color: whitesmoke;
+    color: rgb(252, 248, 248);
 }
 .navbar-toggler{
     border: none;
@@ -42,10 +42,10 @@ li a{
 
 .fullbox{
     height: 100%;
-    width: 100%;
+    /* width: 100%; */
     padding-top:80px;
-    padding-left: 150px;
-    padding-right: 150px;
+    /* padding-left: 150px;
+    padding-right: 150px; */
 }
 /* #sandp{
     
@@ -57,7 +57,9 @@ li a{
 
 }
 .pands{
-    top: 50px;
+    /* top: 50px; */
+    display: flex;
+    flex-direction: row;
     padding: 15px 30px;
     font-family: Merriweather;
     border: none;
