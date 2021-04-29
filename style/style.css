@@ -58,7 +58,8 @@ li a{
 }
 .pands{
     /* top: 50px; */
-    overflow: auto;
+    display: flex;
+    flex-direction: row;
     padding: 15px 30px;
     font-family: Merriweather;
     border: none;
